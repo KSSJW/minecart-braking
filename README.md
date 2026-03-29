@@ -26,5 +26,6 @@ Check out the latest development progress here. [Development Progress](https://w
 
 ## Features
 
-- When riding a minecart, pressing the **Left Alt** key on the keyboard will allow you to quickly stop the minecart, even on powered rails.
+- Use command `/setCartBrakeForce <force>` to adjust the braking intensity. (Permission: **OP**)
+- When riding a minecart, pressing the **Left** `Alt` key on the keyboard will allow you to quickly stop the minecart, even on powered rails.
 - The default key is left Alt, but you can change the brake key in the game settings.

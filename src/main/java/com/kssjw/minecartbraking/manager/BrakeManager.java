@@ -6,8 +6,6 @@ import net.minecraft.world.phys.Vec3;
 
 public class BrakeManager {
 
-    private static double coefficient = 0.1;
-
     public static void brake(ServerPlayer player) {
         if (
             player == null
@@ -16,6 +14,12 @@ public class BrakeManager {
         ) {
             return;
         }
+
+        int force = ConfigManager.getBrakeForce();
+
+        if (force == -1) return;
+
+        double coefficient = (double)force / 100.0;
 
         AbstractMinecart cart = (AbstractMinecart)player.getVehicle();
 

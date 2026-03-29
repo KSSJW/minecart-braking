@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "minecart-braking",
-	"version": "1.0.0-alpha.1+26.1",
+	"version": "1.0.0-beta.1+26.1",
 	"name": "Minecart Braking",
 	"description": "Added a braking function to the minecart.",
 	"authors": [
@@ -9,6 +9,7 @@
 	],
 	"contact": {
 		"homepage": "https://github.com/KSSJW/minecart-braking",
+		"issues": "https://github.com/KSSJW/minecart-braking/issues",
 		"sources": "https://github.com/KSSJW/minecart-braking"
 	},
 	"license": "GPL-3.0",
