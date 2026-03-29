@@ -1,0 +1,38 @@
+{
+	"schemaVersion": 1,
+	"id": "minecart-braking",
+	"version": "1.0.0-alpha.1+26.1",
+	"name": "Minecart Braking",
+	"description": "Added a braking function to the minecart.",
+	"authors": [
+		"KSSJW"
+	],
+	"contact": {
+		"homepage": "https://github.com/KSSJW/minecart-braking",
+		"sources": "https://github.com/KSSJW/minecart-braking"
+	},
+	"license": "GPL-3.0",
+	"icon": "assets/minecart-braking/logo/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.kssjw.minecartbraking.MinecartBraking"
+		],
+		"client": [
+			"com.kssjw.minecartbraking.client.MinecartBrakingClient"
+		]
+	},
+	"mixins": [
+		"minecart-braking.mixins.json",
+		{
+			"config": "minecart-braking.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.5",
+		"minecraft": ">=26.1",
+		"java": ">=25",
+		"fabric-api": "*"
+	}
+}
