@@ -22,7 +22,7 @@ Added a braking function to the minecart.
 
 ## Progress
 
-Check out the latest development progress here. [Development Progress](https://windysky.gitbook.io/main/minecraft/minecart-braking/version)
+Check out the latest development progress here. [Development Progress](https://www.windysky.top/docs/minecraft-java-edition/minecart-braking/version)
 
 ## Features
 
