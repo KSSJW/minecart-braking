@@ -1,6 +1,6 @@
 package com.kssjw.minecartbraking.client.manager;
 
-import org.lwjgl.glfw.GLFW;
+import org.lwjgl.sdl.SDLScancode;
 
 import com.kssjw.minecartbraking.MinecartBraking;
 import com.mojang.blaze3d.platform.InputConstants;
@@ -18,7 +18,7 @@ public class KeyManager {
 
         switchKey = KeyMappingHelper.registerKeyMapping(new KeyMapping(
             "key.minecart-braking.brake",
-            InputConstants.Type.KEYSYM, GLFW.GLFW_KEY_LEFT_ALT,
+            InputConstants.Type.KEYBOARD, SDLScancode.SDL_SCANCODE_LALT,
             customCategory
         ));
     }

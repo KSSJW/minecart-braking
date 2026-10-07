@@ -1,7 +1,7 @@
 {
 	"schemaVersion": 1,
 	"id": "minecart-braking",
-	"version": "1.0.0-beta.1+26.1",
+	"version": "1.0.0-beta.1+26.3",
 	"name": "Minecart Braking",
 	"description": "Added a braking function to the minecart.",
 	"authors": [
@@ -31,8 +31,8 @@
 		}
 	],
 	"depends": {
-		"fabricloader": ">=0.18.5",
-		"minecraft": ">=26.1",
+		"fabricloader": ">=0.19.5",
+		"minecraft": ">=26.3",
 		"java": ">=25",
 		"fabric-api": "*"
 	}
